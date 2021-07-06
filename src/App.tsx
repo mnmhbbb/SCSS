@@ -2,6 +2,7 @@ import avatarimg from './assets/images/img-user-01.jpg';
 import { ReactComponent as Star } from './assets/Icon/Star.svg';
 import { ReactComponent as Search } from './assets/Icon/Search.svg';
 import { ReactComponent as Caret } from './assets/Icon/Caret.svg';
+import { ReactComponent as Chevron } from './assets/Icon/Chevron.svg';
 
 function App() {
   return (
@@ -81,6 +82,34 @@ function App() {
       <div className="input-group">
         <Search className="input-search" />
         <input type="text" className="form-input" placeholder="스토어 검색" />
+      </div>
+
+      <div>
+        <div className="pagination">
+          <button type="button" className="page-control page-prev">
+            <Chevron className="page-chevron" />
+          </button>
+          <ol className="page-list">
+            <li className="page-item">
+              <a href="/">1</a>
+            </li>
+            <li className="page-item is-active">
+              <a href="/">2</a>
+            </li>
+            <li className="page-item">
+              <a href="/">3</a>
+            </li>
+            <li className="page-item">
+              <a href="/">4</a>
+            </li>
+            <li className="page-item">
+              <a href="/">999999</a>
+            </li>
+          </ol>
+          <button type="button" className="page-control page-next">
+            <Chevron className="page-chevron" />
+          </button>
+        </div>
       </div>
     </div>
   );
