@@ -25,6 +25,35 @@ function App() {
         <Star />
         <Star />
       </div>
+      <div>
+        <button type="button" className="btn-primary btn-32">
+          버튼
+        </button>
+        <button type="button" className="btn-outlined btn-40">
+          버튼
+        </button>
+        <button type="button" className="btn-primary btn-55">
+          버튼버튼버튼
+        </button>
+        <button type="button" disabled className="btn-secondary btn-32">
+          버튼
+        </button>
+        <button type="button" disabled className="btn-primary btn-40">
+          버튼
+        </button>
+        <button type="button" className="btn-outlined btn-48">
+          버튼
+        </button>
+        <button type="button" className="btn-secondary btn-55">
+          버튼
+        </button>
+        <button type="button" className="btn-ghost btn-32">
+          버튼!
+        </button>
+        <button type="button" disabled className="btn-ghost btn-32">
+          버튼!
+        </button>
+      </div>
     </div>
   );
 }
