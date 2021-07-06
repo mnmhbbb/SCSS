@@ -1,4 +1,5 @@
 import avatarimg from './assets/images/img-user-01.jpg';
+import { ReactComponent as Star } from './assets/Icon/Star.svg';
 
 function App() {
   return (
@@ -16,6 +17,13 @@ function App() {
         <div className="avatar-32">
           <img src={avatarimg} alt="아바타 샘플" />
         </div>
+      </div>
+      <div className="star-rating-13">
+        <Star />
+        <Star />
+        <Star />
+        <Star />
+        <Star />
       </div>
     </div>
   );
