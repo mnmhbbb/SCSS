@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'tomorrow';
+  src: url('./src/assets/fonts/tomorrow.eot');
+  src: url('./src/assets/fonts/tomorrow.eot#iefix') format('embedded-opentype'),
+    url('./src/assets/fonts/tomorrow.ttf') format('truetype'),
+    url('./src/assets/fonts/tomorrow.woff') format('woff'),
+    url('./src/assets/fonts/tomorrow.svg#tomorrow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
