@@ -31,16 +31,16 @@ SCSS-study
 └─ src
    ├─ assets
    │  ├─ Icon
-   │  │  ├─ Bell.svg
-   │  │  ├─ Bookmark.svg
-   │  │  ├─ ...
    │  ├─ Logo.svg
+   │  ├─ fonts
+   │  │  ├─ tomorrow.eot
+   │  │  ├─ tomorrow.svg
+   │  │  ├─ tomorrow.ttf
+   │  │  └─ tomorrow.woff
    │  └─ images
-   │     ├─ img-detail-01.jpg
-   │     ├─ img-detail-02.jpg
-   │     ├─ ...
    └─ styles
       ├─ base
+      │  ├─ _fonts.scss
       │  ├─ _globals.scss
       │  ├─ _normalize.scss
       │  └─ _reset.scss
@@ -60,6 +60,7 @@ SCSS-study
          ├─ _avatars.scss
          ├─ _buttons.scss
          ├─ _forms.scss
+         ├─ _icons.scss
          ├─ _pagination.scss
          └─ _tags.scss
 
