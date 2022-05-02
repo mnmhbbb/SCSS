@@ -10,7 +10,7 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "~/../"
+      "savePath": "~/../../"
     }
   ]
 ```
