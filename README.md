@@ -1,4 +1,4 @@
-## 1일 1SCSS 공부하기
+## SCSS 
 
 - 직관적이고 깔끔한 UI/UX 디자인을 효율적으로 만들 줄 아는 능력을 쌓기 위해 시작하였다.
 - `node-sass`를 통해 컴파일하는 방법도 있지만 vscode의 extension `Live Sass Compiler`로 간편하게 작업하였다.
